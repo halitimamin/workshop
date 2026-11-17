@@ -166,7 +166,7 @@ export const SupervisorSection: React.FC<SupervisorSectionProps> = ({
               {/* 3D Pop-Out Image (Head & hair slightly overflow the top of the arch) */}
               <img 
                 src={imagePath} 
-                alt="HALITIM AMIN - AI Engineer" 
+                alt="HALITIM AMIN - ML & AI Engineer" 
                 className={`relative z-10 w-auto h-full max-h-[340px] xs:max-h-[380px] sm:max-h-[430px] md:max-h-[480px] object-contain object-bottom pointer-events-none transition-all duration-500 ease-out transform-gpu origin-bottom ${
                   isColorActive 
                     ? 'grayscale-0 scale-[1.05] drop-shadow-[0_16px_30px_rgba(118,255,3,0.4)]' 
@@ -212,18 +212,18 @@ export const SupervisorSection: React.FC<SupervisorSectionProps> = ({
               HALITIM AMIN
             </h3>
 
-            {/* Title: AI ENGINEER with Accent Color & Modern Badge / Line Style */}
+            {/* Title: ML & AI ENGINEER with Accent Color & Modern Badge / Line Style */}
             <div className="flex items-center gap-3 mb-4 sm:mb-6 w-full">
-              <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 rounded-xl bg-neon text-forest-darkest font-black text-xs sm:text-sm md:text-base tracking-widest uppercase border-2 border-forest shadow-brutal-sm flex-shrink-0">
-                <Cpu className="w-4 h-4 text-forest-darkest" />
-                <span>AI ENGINEER</span>
+              <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 rounded-xl bg-neon text-forest-darkest font-black text-xs sm:text-sm md:text-base tracking-widest uppercase border-2 border-forest shadow-brutal-sm flex-shrink-0 max-w-full">
+                <Cpu className="w-4 h-4 text-forest-darkest flex-shrink-0" />
+                <span>ML &amp; AI ENGINEER</span>
               </div>
               <div className="flex-1 h-0.5 bg-gradient-to-r from-forest to-transparent rounded-full" />
             </div>
 
             {/* Biography & Mission Statement: Full text visible, NO line-clamp, high contrast */}
             <p className="text-forest-darkest text-sm sm:text-base md:text-lg leading-relaxed font-medium mb-5 sm:mb-6 w-full">
-              AI Engineer working on autonomous developer workflows, full-stack reactive architecture, and applied agentic systems. Amin designed this workshop with GDGC University of Batna 2 to teach computer science students how modern developers ship scalable, production-ready software.
+              ML &amp; AI Engineer working on autonomous developer workflows, full-stack reactive architecture, and applied agentic systems. Amin designed this workshop with GDGC University of Batna 2 to teach computer science students how modern developers ship scalable, production-ready software.
             </p>
 
             {/* Verified Technical Pillars / Badges */}

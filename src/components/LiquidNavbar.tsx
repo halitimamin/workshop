@@ -34,7 +34,6 @@ export const WorkshopIcons = {
   supervisor: I(<><circle cx="12" cy="7" r="4" /><path d="M5.5 21a6.5 6.5 0 0 1 13 0" /><path d="m17 11 2 2 4-4" /></>),
   program: I(<><rect x="3" y="4" width="18" height="18" rx="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></>),
   requirements: I(<><path d="m9 11 3 3L22 4" /><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" /></>),
-  registration: I(<><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="8.5" cy="7" r="4" /><line x1="20" y1="8" x2="20" y2="14" /><line x1="23" y1="11" x2="17" y2="11" /></>),
 }
 
 export const DEFAULT_WORKSHOP_ITEMS: LiquidNavItem[] = [
@@ -42,7 +41,6 @@ export const DEFAULT_WORKSHOP_ITEMS: LiquidNavItem[] = [
   { label: "Supervisor", href: "#supervisor", icon: WorkshopIcons.supervisor, fx: "glow" },
   { label: "Program", href: "#program", icon: WorkshopIcons.program, fx: "wave" },
   { label: "Requirements", href: "#requirements", icon: WorkshopIcons.requirements, fx: "spin" },
-  { label: "Registration", href: "#registration", icon: WorkshopIcons.registration, fx: "plane" },
 ]
 
 /* ---------- Workshop Green, Distinct Hover & Neon Active CSS ---------- */

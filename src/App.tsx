@@ -4,7 +4,6 @@ import { HeroSection } from './components/HeroSection';
 import { SupervisorSection } from './components/sections/SupervisorSection';
 import { ProgramSection } from './components/sections/ProgramSection';
 import { RequirementsSection } from './components/sections/RequirementsSection';
-import { RegistrationSection } from './components/sections/RegistrationSection';
 import { FooterBackground } from './components/background/FooterBackground';
 import { JoinWorkshopModal } from './components/modals/JoinWorkshopModal';
 import { Terminal, Laptop, Code2, Heart } from 'lucide-react';
@@ -81,9 +80,6 @@ export const App: React.FC = () => {
 
         {/* Section 4: Requirement to Start (COMING SOON) */}
         <RequirementsSection />
-
-        {/* Section 5: Registration (COMING SOON) */}
-        <RegistrationSection onRegisterClick={() => setIsJoinModalOpen(true)} />
       </main>
 
       {/* 3. WORKSHOP FOOTER WITH GDGC UNIV. BATNA 2 BRANDING */}
@@ -118,7 +114,7 @@ export const App: React.FC = () => {
               <span className="w-2 h-2 rounded-full bg-neon animate-pulse" /> Free Registration
             </span>
             <span>•</span>
-            <span>Lead: Halitim Amin (AI Engineer)</span>
+            <span>Lead: Halitim Amin (ML &amp; AI Engineer)</span>
           </div>
 
         </div>
