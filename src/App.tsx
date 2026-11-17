@@ -111,7 +111,7 @@ export const App: React.FC = () => {
               GDGC Batna 2
             </div>
             <span className="flex items-center gap-1.5 text-forest font-bold">
-              <span className="w-2 h-2 rounded-full bg-neon animate-pulse" /> Free Registration
+              <span className="w-2 h-2 rounded-full bg-neon animate-pulse" /> Free Workshop
             </span>
             <span>•</span>
             <span>Lead: Halitim Amin (ML &amp; AI Engineer)</span>
